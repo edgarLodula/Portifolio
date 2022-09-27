@@ -18,11 +18,16 @@ background-color: aliceblue;
 background-image: url("https://media.istockphoto.com/vectors/space-background-night-alien-fantasy-landscape-vector-id1208816180?b=1&k=20&m=1208816180&s=612x612&w=0&h=X5PDaPjuo17wXAI0W7S50oyMf0_dCF6ti-lyBcRN4GU=");
 justify-content: space-between;
 align-items: center;
+position:sticky;
+top:0;
+z-index:2
 }
 .links{
-border:solid;
+
 margin-left: 10;
 display:flex;
+width: 50%;
+justify-content: space-between;
 
 }
 .games{
@@ -40,4 +45,21 @@ display:flex;
     align-items: center;
     border:solid;
    
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border:solid;
+}
+a:hover{
+
+background-color: aqua;
+}
+.rodape{
+    display:flex;
+    justify-content: center;
+    border:solid;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
